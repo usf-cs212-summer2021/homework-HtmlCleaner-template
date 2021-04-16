@@ -4,7 +4,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>edu.usfca.cs.cs212</groupId>
-	<artifactId>HomeworkName</artifactId>
+	<artifactId>HtmlCleaner</artifactId>
 	<version>2021-01</version>
 
 	<properties>
@@ -63,5 +63,18 @@
 			<artifactId>junit-jupiter</artifactId>
 			<version>5.7.0</version>
 		</dependency>
+		
+		<!-- for apache commons -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.11</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-text</artifactId>
+			<version>1.9</version>
+		</dependency>		
 	</dependencies>
 </project>
