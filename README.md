@@ -21,7 +21,7 @@ Below are some hints that may help with this homework assignment:
   
   - You will have to generate a regular expression for the `HtmlCleaner.stripElement` method based on the element name provided as a parameter. It can be helpful to use Java [format strings](https://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/util/Formatter.html) for this, but it is not required.
 
-*Note:* Before using these classes with project 4, you will need to make some modifications. Specifically, you will eventually need to make your `LinkParser` and `HtmlCleaner` work together so that you parse links after stripping block elements, but before stripping tags and entities. (This is not required for the homework, however.)
+*Note:* Before using these classes with project 4, you will need to make some modifications. Specifically, you will eventually need to make your `LinkParser`, `HtmlCleaner`, and ``HtmlFetcher` work together so that you fetch HTML, then parse links after stripping block elements, but before stripping tags and entities. (This is not required for the homework, however.)
 
 ## Resources ##
 
