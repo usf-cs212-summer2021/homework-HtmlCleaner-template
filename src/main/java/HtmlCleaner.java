@@ -9,10 +9,12 @@ import org.apache.commons.text.StringEscapeUtils;
  */
 public class HtmlCleaner {
 	/**
-	 * Replaces all HTML entities with their Unicode character equivalent or, if
+	 * Replaces all HTML 4 entities with their Unicode character equivalent or, if
 	 * unrecognized, replaces the entity code with an empty string. For example:,
-	 * "2010&amp;ndash;2012" will become "2010–2012" and "&amp;gt;&amp;zzzz;x"
-	 * will become ">x" (with the unrecognized &zzzz; entity getting removed).
+	 * {@code 2010&ndash;2012} will become {@code 2010–2012} and
+	 * {@code &gt;&dash;x} will become {@code >x} with the unrecognized
+	 * {@code &dash;} entity getting removed. (The {@code &dash;} entity is valid
+	 * HTML 5, but not HTML 4 which this code uses.)
 	 * 
 	 * <p>
 	 * <em>(View this comment as HTML in the "Javadoc" view in Eclipse.)</em>
@@ -30,7 +32,7 @@ public class HtmlCleaner {
 
 	/**
 	 * Replaces all HTML tags with an empty string. For example, the html
-	 * "A&lt;b&gt;B&lt;/b&gt;C" will become "ABC".
+	 * {@code A<b>B</b>C} will become {@code ABC}.
 	 *
 	 * <p>
 	 * <em>(View this comment as HTML in the "Javadoc" view in Eclipse.)</em>
