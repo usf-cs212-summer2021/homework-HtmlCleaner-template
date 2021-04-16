@@ -17,7 +17,7 @@ Below are some hints that may help with this homework assignment:
 
   - View the Javadoc comments using the "Javadoc" view in Eclipse. It will render the HTML in the comments properly.
 
-  - Each method can be completed using a combination of regular expressions and the [String.replaceAll](https://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/lang/String.html#replaceAll(java.lang.String,java.lang.String) method.
+  - Each method can be completed using a combination of regular expressions and the [String.replaceAll](https://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/lang/String.html#replaceAll(java.lang.String,java.lang.String)) method.
   
   - You will have to generate a regular expression for the `HtmlCleaner.stripElement` method based on the element name provided as a parameter. It can be helpful to use Java [format strings](https://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/util/Formatter.html) for this, but it is not required.
 
